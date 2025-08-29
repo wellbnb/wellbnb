@@ -2,7 +2,11 @@
   "name": "react-typescript",
   "version": "1.0.0",
   "description": "React and TypeScript example starter project",
-  "keywords": ["typescript", "react", "starter"],
+  "keywords": [
+    "typescript",
+    "react",
+    "starter"
+  ],
   "main": "src/index.tsx",
   "homepage": "https://wellbnb.github.io/wellbnb",
   "dependencies": {
@@ -16,7 +20,7 @@
     "@stripe/react-stripe-js": "3.9.2",
     "@stripe/stripe-js": "7.9.0",
     "gh-pages": "^6.0.0",
-    "react-icons": "5.5.0"
+    "react-icons": "4.10.1"
   },
   "devDependencies": {
     "@types/react": "19.1.12",
@@ -29,5 +33,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
